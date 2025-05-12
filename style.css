@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');  /* header */
+@import url('https://fonts.googleapis.com/css2?family=Coustard:wght@900&display=swap'); /* nav */
+@import url('https://fonts.googleapis.com/css2?family=Caladea&display=swap');   /* texto */
+@import url('https://fonts.googleapis.com/css2?family=Caladea:wght@700&display=swap'); /* texto inicial */
+
+*{  /* reset geral*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* cabeçalho */
+
+header{
+    padding: 50px;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    background-image: linear-gradient(to right, #a3bded 0%, #7296c5e3 100%);
+    color: #3674B5;
+}
+
+/* barra de navegação */
+
+nav{
+    background-color: #578FCA;
+    font-family: "Coustard", serif;
+    font-weight: 900;
+    font-style: normal;
+    height: 50px;
+}
+
+nav ul {
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul li{
+    display: inline-flex;
+}
+
+
+nav ul li a{
+    color: #D1F8EF;
+    display: block;
+    transition: all 0.3s ease;
+    padding: 1rem 1.5rem;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+nav ul li :hover{
+    color: #3674B5;
+    background-color: #D1F8EF;
+}
+
+
+
+/* conteudo principal da primeira pagina*/
+
+body{
+    background-color: rgb(221, 221, 221);
+}
+
+#section-inicial{
+    padding: 30px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-family: "Caladea", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#texto-inicial{
+    font-size: 45px;
+    
+}
+
+/* conteudo principal sobre mim e formacao */
+
+.div-corpo{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.caixa-lateral{
+    box-shadow: -5px 5px 50px rgba(0, 0, 0, 0.5) inset;
+    border-radius: 15px 50px 30px 5px;
+    background-color: #3674B5;
+    color: #D1F8EF;
+    padding: 25px;
+    font-family: "Caladea", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.caixa-lateral p {
+    padding: 8px;
+    font-size: 1.2em;
+}
+
+.caixa-lateral h2{
+    text-align: center;
+    font-size: 2em;
+}
+
+
+.section-corpo{
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: -2px 2px 50px rgba(0, 110, 255, 0.459) inset;
+    background-color: #578FCA;
+    color: #D1F8EF;
+    padding: 10px;
+    width: 1000px;
+}
+
+.section-corpo p{
+    margin: 10px;
+    text-align: justify;
+    font-family: "Caladea", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+#foto-sobre-mim {
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 300px;
+}
+
+#foto-formacao {
+    margin-top: 10px;
+    width: 300px;
+}
+
+/* conteudo formulario */
+
+#titulo-formulario{
+    color: #3674B5;
+    font-family: "Coustard", serif;
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+#section-formulario{
+    margin: 10px;
+    font-family: "Caladea", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.form-grupo {
+    margin-bottom: 15px;
+}
+label {
+    color: #3674B5;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+button {
+    background-color: #578FCA;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #3674B5;
+}
+
+
+/* footer */
+
+footer{
+    margin: 5px;
+    background-color: #578FCA;
+    color: #D1F8EF;
+    font-family: "Coustard", serif;
+    font-weight: 900;
+    font-style: normal;
+    height: 50px;
+    text-align: center;
+    padding: 12px;
+}
